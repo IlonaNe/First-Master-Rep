@@ -6,6 +6,3 @@ def get_number_ticket(min, max, quantity):
         return []
     lottery_numbers = random.sample(range(min, max + 1), quantity)
     return sorted(lottery_numbers)
-    lottery_numbers = get_number_ticket(10, 99, 5)
-    print("Your lottery numbers: ", lottery_numbers)
-    
